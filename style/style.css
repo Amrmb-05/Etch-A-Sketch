@@ -1,6 +1,6 @@
 .container div {
     
-    border: 1px solid black;
+    border: 1px solid red;
     margin: 0;
 }
 
@@ -9,9 +9,23 @@
     flex-wrap: wrap;
     width: 832px;
     height: 832px;
-    flex-grow: 0;
+    margin-right:auto;
+    margin-left:auto;
+    
 }
 
 .hover{
     background-color: blue;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: blue;
+}
+
+button {
+    background-color: red;
 }
