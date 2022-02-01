@@ -1,6 +1,5 @@
 .container div {
-    height: 50px;
-    width: 50px;
+    
     border: 1px solid black;
     margin: 0;
 }
@@ -8,7 +7,7 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 832px;
+    width: 832px;
 }
 
 .hover{
